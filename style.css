@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f2f5;
+ }
+ #login-section, #todo-section {
+    border: 1px solid #ddd;
+    padding: 20px;
+    background: #fff;
+    width: 300px;
+    text-align: center;
+ }
+ #todo-list div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+ }
+ .completed {
+    text-decoration: line-through;
+    color: #888;
+ }

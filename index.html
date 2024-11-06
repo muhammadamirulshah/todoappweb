@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>To-Do List App</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-auth-compat.js"></script>
+<script src="app.js"></script>
+</head>
+<body>
+
+<!-- Login Section -->
+<div id="login-section">
+<h2>Login with Google</h2>
+<button id="login-btn">Login with Google</button>
+</div>
+<!-- To-Do List Section -->
+<div id="todo-section" style="display: none;">
+<button id="logout-btn">Logout</button>
+<h2>My To-Do List</h2>
+<input type="text" id="todo-input" placeholder="Add a new task">
+<button id="add-btn">Add</button>
+<div id="todo-list"></div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
